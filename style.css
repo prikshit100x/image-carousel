@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    width: 60%;
+    height: 500px;
+    box-shadow: 0px 0px 3px grey;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    overflow: hidden; /* Ensures no overflow */
+}
+
+img {
+    width: 100%; /* Make the width of the image match the container */
+    height: 100%; /* Set the height of the image to fill the container */
+    object-fit: cover; /* Ensures the image fills the container while maintaining aspect ratio */
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.nav{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.nav button{
+    font-size: 25px ;
+    padding: 5px;
+}
